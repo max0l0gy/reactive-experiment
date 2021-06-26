@@ -28,3 +28,10 @@ Based on the conditions:
 100,000 to 500,000 clients   
 The report is calculated up to 30 sec    
 
+
+PostgreSQL operator 4 k8s   
+https://github.com/zalando/postgres-operator
+
+Analytics   
+https://habr.com/ru/company/flant/blog/520616/
+

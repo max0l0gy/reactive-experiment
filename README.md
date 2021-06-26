@@ -18,7 +18,7 @@ The "report collector" should work smoothly and quickly without overloading the 
 
 The customer-report must remain healthy and report requests up to 1000 requests per second to consumers while the report build process is running.
 
-It is necessary to carry out load testing of each service and provide RPS (requests per second) for each service in the limited resources of the cloud platform (for example, Digital Ocean)   
+It is necessary to carry out load testing of each service and provide RPS (requests per second) for each service in the limited resources of the cloud platform (for example kubernetes cluster @ Digital Ocean)   
 250-500 (1/4, 1/2) CPU   
 250-512 MB RAM   
 It is necessary to determine the safety margin of RPS with such resources for each service.   

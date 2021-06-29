@@ -21,17 +21,17 @@ The "report collector" should work smoothly and quickly without overloading the 
 The customer-report must remain healthy and report requests up to 1000 requests per second to consumers while the report build process is running.
 
 It is necessary to carry out load testing of each service and provide RPS (requests per second) for each service in the limited resources (then less the better principal) of the cloud platform (for example kubernetes cluster @ Digital Ocean)   
-250-500 (1/4, 1/2) CPU   
-250-512 MB RAM   
+256-512 (1/4, 1/2) CPU   
+256-512 MB RAM   
 It is necessary to determine the safety margin of RPS with such resources for each service.   
 Based on the conditions:   
 100,000 to 500,000 clients   
-The report is calculated up to 30 sec    
+The report is calculated up to 30 sec   
 
+And then write the same service with Quarkus and compare with the same service writed with Reactive Spring   
 
 PostgreSQL operator 4 k8s   
 https://github.com/zalando/postgres-operator
 
 Analytics   
 https://habr.com/ru/company/flant/blog/520616/
-

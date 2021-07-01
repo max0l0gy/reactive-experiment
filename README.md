@@ -35,3 +35,10 @@ https://github.com/zalando/postgres-operator
 
 Analytics   
 https://habr.com/ru/company/flant/blog/520616/
+
+01.07.2021   
+First steps with gatling load testing   
+I have [reports](https://github.com/max0l0gy/reactive-experiment-gatling/tree/0.0.1/reports/gatling/basicsimulation-20210701194948278)   
+proffing that [customer-report-calculation::0.0.1](https://github.com/max0l0gy/customer-report-calculation/tree/0.0.1)
+can maximum process +/- 1358 RPS
+

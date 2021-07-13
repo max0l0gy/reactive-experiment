@@ -42,3 +42,10 @@ I have [reports](https://github.com/max0l0gy/reactive-experiment-gatling/tree/0.
 proffing that [customer-report-calculation::0.0.1](https://github.com/max0l0gy/customer-report-calculation/tree/0.0.1)
 can maximum process +/- 1358 RPS
 
+12.07.2021   
+Nothing is changed When I removed long delays for simulating long executions 
+maximum for service still +/- 1358 RPS  
+
+
+
+

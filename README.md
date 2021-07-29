@@ -46,6 +46,22 @@ can maximum process +/- 1358 RPS
 Nothing is changed When I removed long delays for simulating long executions 
 maximum for service still +/- 1358 RPS  
 
+29.07.2021 20:42 PM 🤔🤔🤔🤔🤔
+customer-report-calculation RPS which is consumed by report-collector is +/- 1200 RPS
+![customer-report-calculation RPS](screenshoots/calculation-2021-07-29%2020-47-49.png)
+
+
+Using playtika reactive feign client as REST reactive web client
+report-collector Service  (Aggregate pattern) RPS is +/- 440
+[src](https://github.com/max0l0gy/customer-report-collector/tree/feature/feign-client) 
+![440 RPS with reactive feign client](screenshoots/aggregate-reactive-feign-client-2021-07-29%2020-38-41.png)
+
+Using Spring Reactive feign client
+report-collector Service  (Aggregate pattern) RPS is +/- 1200 RPS
+[src](https://github.com/max0l0gy/customer-report-collector/tree/feature/web-client)
+![440 RPS spring reactive web client](screenshoots/aggregate-reactive-web-client-2021-07-29%2020-53-32.png)
+
+
 
 
 

@@ -57,7 +57,7 @@ report-collector Service  (Aggregate pattern) RPS is +/- 440
 [source](https://github.com/max0l0gy/customer-report-collector/tree/feature/feign-client)    
 ![440 RPS with reactive feign client](screenshoots/aggregate-reactive-feign-client-2021-07-29%2020-38-41.png)
 
-Using Spring Reactive feign client
+Using Spring Reactive web client
 report-collector Service  (Aggregate pattern) RPS is +/- 1200 RPS    
 [source](https://github.com/max0l0gy/customer-report-collector/tree/feature/web-client)    
 ![1200 RPS spring reactive web client](screenshoots/aggregate-reactive-web-client-2021-07-29%2020-53-32.png)
